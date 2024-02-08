@@ -23,25 +23,20 @@ import MainLayout from "./Layouts/MainLayout";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  const { x, y } = useScroll(scrollRef);
-
   return (
     <>
       <BrowserRouter>
         <div className="App  overflow-auto">
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={<MainLayout yScroll={y} />}>
-              <Route
-                index={true}
-                /*можно без true */ element={<Home yScroll={y} />}
-              />
+            <Route path="/" element={<MainLayout />}>
+              <Route index={true} /*можно без true */ element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="projects" element={<Projects />} />
               <Route path="services" element={<Services />} />
               <Route
                 path="services/typeassertion"
-                element={<Typeassertion yScroll={y} />}
+                element={<Typeassertion />}
               />
               <Route path="services/verification" element={<Verification />} />
               <Route path="services/examination" element={<Examination />} />
