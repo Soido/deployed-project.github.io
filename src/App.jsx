@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import React, { useRef } from "react";
+import React from "react";
 import { useScroll } from "react-use";
 import "./App.css";
 
@@ -23,7 +23,6 @@ import MainLayout from "./Layouts/MainLayout";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-  const scrollRef = React.useRef(null);
   const { x, y } = useScroll(scrollRef);
 
   return (
