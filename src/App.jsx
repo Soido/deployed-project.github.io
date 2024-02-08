@@ -25,7 +25,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/rusmetrology-deployed">
         <div className="App  overflow-auto">
           <ScrollToTop />
           <Routes>
