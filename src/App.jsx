@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div ref={scrollRef} className="App  overflow-auto">
+        <div className="App  overflow-auto">
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<MainLayout yScroll={y} />}>
