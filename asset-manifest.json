@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rusmetrology-deployed/static/css/main.0215fa05.css",
-    "main.js": "/rusmetrology-deployed/static/js/main.ab619831.js",
+    "main.js": "/rusmetrology-deployed/static/js/main.300d1568.js",
     "static/media/komplex.jpg": "/rusmetrology-deployed/static/media/komplex.263e8da6bb1fff1738f6.jpg",
     "static/media/meri.mp4": "/rusmetrology-deployed/static/media/meri.5acbfbe39fa058ba7096.mp4",
     "static/media/Zernovoi.jpg": "/rusmetrology-deployed/static/media/Zernovoi.3a6d5b969e79ab5b5232.jpg",
@@ -37,10 +37,10 @@
     "static/media/rusmetrology10.png": "/rusmetrology-deployed/static/media/rusmetrology10.30acdf741700520229ab.png",
     "index.html": "/rusmetrology-deployed/index.html",
     "main.0215fa05.css.map": "/rusmetrology-deployed/static/css/main.0215fa05.css.map",
-    "main.ab619831.js.map": "/rusmetrology-deployed/static/js/main.ab619831.js.map"
+    "main.300d1568.js.map": "/rusmetrology-deployed/static/js/main.300d1568.js.map"
   },
   "entrypoints": [
     "static/css/main.0215fa05.css",
-    "static/js/main.ab619831.js"
+    "static/js/main.300d1568.js"
   ]
 }
