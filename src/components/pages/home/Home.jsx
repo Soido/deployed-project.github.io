@@ -21,7 +21,7 @@ import meri from "../../../video/meri.mp4";
 
 const Home = () => {
   const navigate = useNavigate();
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
 
   const blockAnimation = {
     hidden: {

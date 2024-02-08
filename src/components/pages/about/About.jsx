@@ -12,7 +12,7 @@ import titleteam from "../../../img/about/titleteam.jpg";
 import aboutvid from "../../../img/Services/aboutvid.mp4";
 
 function About() {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   const navigate = useNavigate();
   return (
     <>

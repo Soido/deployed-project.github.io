@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import { useWindowSize } from "react-use";
 
 import Footer from "../../Footer";
@@ -17,9 +16,7 @@ import IMG58 from "../../../img/Partners/5.8.png";
 import IMG59 from "../../../img/Partners/5.9.png";
 
 function Forpartners() {
-  const { width, height } = useWindowSize();
-  const navigate = useNavigate();
-
+  const { width } = useWindowSize();
   return (
     <>
       <main className="w-screen">

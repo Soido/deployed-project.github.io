@@ -3,7 +3,7 @@ import { useWindowSize } from "react-use";
 import Footer from "../../Footer";
 
 function Contacts() {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   return (
     <>
       <main className="w-screen">

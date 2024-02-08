@@ -1,11 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { useWindowSize } from "react-use";
 
 import { HiOutlineChevronUp } from "react-icons/hi";
 
 function ButtonServises() {
   const navigate = useNavigate();
-  const { width, height } = useWindowSize();
+
   return (
     <div className=" cursor-pointer " onClick={() => navigate("/services")}>
       <div className=" flex items-center justify-end text-xl px-[15px] mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[1340px] xl:max-w-[1340px]">
