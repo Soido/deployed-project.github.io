@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <BrowserRouter basename="/rusmetrology-deployed">
-        <div className="App  overflow-auto">
+        <div className="App">
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<MainLayout />}>
