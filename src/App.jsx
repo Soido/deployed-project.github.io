@@ -1,6 +1,6 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
-import { useScroll } from "react-use";
+
 import "./App.css";
 
 import Home from "./components/pages/home/Home";

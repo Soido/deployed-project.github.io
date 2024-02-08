@@ -2,11 +2,10 @@ import { useNavigate } from "react-router-dom";
 import { useWindowSize } from "react-use";
 
 import { HiOutlineMail } from "react-icons/hi";
-import { FiCornerRightUp } from "react-icons/fi";
 
 function ButtonContact() {
   const navigate = useNavigate();
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   return (
     <div className="fixed z-6 bottom-[2rem] right-[1rem] md:bottom-[2.5rem] lg:bottom-[4rem] lg:right-[3rem] xl:bottom-[5.2rem] xl:right-[5rem] 2xl:right-[10rem] 2xl:bottom-[4.2rem] 3xl:right-[24rem] 3xl:bottom-[5.2rem] mx-auto py-0 px-[15px]">
       <button

@@ -13,7 +13,7 @@ import man from "../../../img/Services/menegment.jpg";
 import process from "../../../img/Services/Process.jpg";
 
 function Services({ yScroll }) {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   const navigate = useNavigate();
 
   const blockAnimationleft = {

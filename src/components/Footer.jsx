@@ -14,6 +14,7 @@ function Footer() {
                 <img
                   className="cursor-pointer h-full w-full object-contain pr-[4rem]"
                   src={MedpromlabLogo}
+                  alt="logo"
                 />
               </div>
             </div>

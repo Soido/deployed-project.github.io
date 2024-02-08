@@ -12,7 +12,7 @@ import pnb from "../../../img/project/PNB CHERTRANSNEFT.jpg";
 import aes from "../../../img/project/AES.jpeg";
 
 function Projects({ yScroll }) {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   const navigate = useNavigate();
   return (
     <>

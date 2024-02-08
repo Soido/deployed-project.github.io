@@ -12,7 +12,7 @@ import komplex from "../../../img/News/komplex.jpg";
 import akkred from "../../../img/News/akkred.jpg";
 
 function News() {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   const navigate = useNavigate();
 
   const [open, setOpen] = useState(false);
